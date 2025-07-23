@@ -86,19 +86,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+1 (555) 123-4567', '+1 (555) 123-4568'],
+      details: ['+60 14-641 4815', '+60 12-262 2275'],
       description: 'Call us during business hours'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@vrrconstruction.com', 'quotes@vrrconstruction.com'],
+      details: ['vrrconstructionsb@gmail.com', 'vrrconstructionsb@gmail.com'],
       description: 'We respond within 24 hours'
     },
     {
       icon: MapPin,
       title: 'Office Location',
-      details: ['123 Construction Avenue', 'Suite 200, City, State 12345'],
+      details: ['27-1, Jln 3/93, Taman Miharja', '55200 Kuala Lumpur, Wilayah, Persekutuan Kuala Lumpur, Malaysia'],
       description: 'Visit our office for consultations'
     },
     {
@@ -110,27 +110,27 @@ const Contact = () => {
   ];
 
   const officeLocations = [
+    // {
+    //   name: 'Main Office',
+    //   address: '123 Construction Avenue, Suite 200',
+    //   city: 'Downtown, State 12345',
+    //   phone: '+1 (555) 123-4567',
+    //   services: ['General Contracting', 'Project Management', 'Consulting']
+    // },
     {
-      name: 'Main Office',
-      address: '123 Construction Avenue, Suite 200',
-      city: 'Downtown, State 12345',
-      phone: '+1 (555) 123-4567',
-      services: ['General Contracting', 'Project Management', 'Consulting']
-    },
-    {
-      name: 'North Branch',
-      address: '456 Industrial Blvd',
-      city: 'North City, State 12346',
-      phone: '+1 (555) 123-4568',
+      name: 'VRR Construction',
+      address: ' 27-1, Jln 3/93, Taman Miharja',
+      city: '55200 Kuala Lumpur,Malaysia',
+      phone: '+60 12-262 2275',
       services: ['Commercial Construction', 'Industrial Projects']
     },
-    {
-      name: 'South Branch',
-      address: '789 Residential Way',
-      city: 'South City, State 12347',
-      phone: '+1 (555) 123-4569',
-      services: ['Residential Construction', 'Renovations']
-    }
+    // {
+    //   name: 'South Branch',
+    //   address: '789 Residential Way',
+    //   city: 'South City, State 12347',
+    //   phone: '+1 (555) 123-4569',
+    //   services: ['Residential Construction', 'Renovations']
+    // }
   ];
 
   const faqs = [
@@ -350,7 +350,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-2">24/7 Emergency Services</h3>
-                      <p className="text-orange-100 mb-2">+1 (555) 911-BUILD</p>
+                      <p className="text-orange-100 mb-2">+60 12-262 2275</p>
                       <p className="text-sm text-orange-100">
                         For construction emergencies, safety issues, or urgent project concerns.
                       </p>
@@ -491,8 +491,8 @@ const Contact = () => {
                   <MapPin className="h-16 w-16 text-primary mx-auto mb-4" />
                   <p className="text-xl font-semibold mb-2">Interactive Map</p>
                   <p className="text-gray-400">
-                    123 Construction Avenue, Suite 200<br />
-                    Downtown, State 12345
+                    27-1, Jln 3/93, Taman Miharja<br />
+                    Kuala Lumpur,Malaysia
                   </p>
                   <Button 
                     className="mt-4 gradient-construction text-white hover:opacity-90"
@@ -516,7 +516,7 @@ const Contact = () => {
                 </div>
                 <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2819098619283!2d-74.00597488459394!3d40.71427797933049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316e8b9e4d%3A0x6a1c9f4b8e4b9e4d!2s123%20Construction%20Ave%2C%20New%20York%2C%20NY%2010013!5e0!3m2!1sen!2sus!4v1635724800000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15955.22975366549!2d101.7236399!3d3.1238644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smy!4v1721733482076!5m2!1sen!2smy"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -533,8 +533,8 @@ const Contact = () => {
                       Address
                     </h4>
                     <p className="text-gray-300">
-                      123 Construction Avenue, Suite 200<br />
-                      Downtown, State 12345
+                      127-1, Jln 3/93, Taman Miharja<br />
+                    Kuala Lumpur,Malaysia
                     </p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
@@ -543,15 +543,15 @@ const Contact = () => {
                       Contact
                     </h4>
                     <p className="text-gray-300">
-                      Phone: +1 (555) 123-4567<br />
-                      Email: info@vrrconstruction.com
+                      Phone: +60 12-262 2275<br />
+                      Email: vrrconstructionsb@gmail.com
                     </p>
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-3 justify-center">
                   <Button 
                     className="gradient-construction text-white hover:opacity-90"
-                    onClick={() => window.open('https://maps.google.com/maps?q=123+Construction+Avenue+Suite+200+Downtown+State+12345', '_blank')}
+                    onClick={() => window.open('https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15955.22975366549!2d101.7236399!3d3.1238644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smy!4v1721733482076!5m2!1sen!2smy', '_blank')}
                   >
                     Open in Google Maps
                   </Button>

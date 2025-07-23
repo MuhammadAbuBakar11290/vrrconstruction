@@ -57,15 +57,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+60 12-262 2275</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="text-gray-300">info@vrrconstruction.com</span>
+                <span className="text-gray-300">vrrconstructionsb@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span className="text-gray-300">123 Construction Ave, City, State 12345</span>
+                <span className="text-gray-300">27-1, Jln 3/93, Taman Miharja, 55200 Kuala Lumpur, Wilayah Persekutuan Malaysia</span>
               </div>
             </div>
           </div>

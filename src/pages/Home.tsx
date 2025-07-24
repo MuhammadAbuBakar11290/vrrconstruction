@@ -122,7 +122,7 @@ const Home = () => {
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-primary mr-3" />
-                  Eco-Friendly Construction Practices
+                  Saftey Certified CIDB G5 Compliant
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-primary mr-3" />

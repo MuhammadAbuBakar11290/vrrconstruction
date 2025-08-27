@@ -47,21 +47,21 @@ const About = () => {
       name: 'Reyna Madrenal',
       role: 'Head of Operations',
       experience: '18+ Years',
-      image: 'reyna.jpg',
+      image: '/images/reyna.jpg',
       specialties: ['Operations Management', 'Quality Control', 'Client Relations']
     },
     {
       name: 'Muhammad Irfan',
       role: 'Chief Architect',
       experience: '20+ Years',
-      image: 'irfan.jpg',
+      image: '/images/irfan.jpg',
       specialties: ['Architectural Design', 'Sustainable Building', 'Innovation']
     },
     {
       name: 'Shafiq-Ur-Rehman',
       role: 'Project Site Engineer',
       experience: '12+ Years',
-      image: 'chand.jpg',
+      image: '/images/chand.jpg',
       specialties: ['Residential Projects', 'Budget Management', 'Client Communication']
     }
   ];

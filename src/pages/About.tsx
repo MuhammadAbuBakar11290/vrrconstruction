@@ -40,28 +40,28 @@ const About = () => {
       name: 'Abdul Rahman',
       role: 'Founder & CEO',
       experience: '25+ Years',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
+      image: 'Rehman.jpg',
       specialties: ['Project Management', 'Commercial Construction', 'Team Leadership']
     },
     {
       name: 'Reyna Madrenal',
       role: 'Head of Operations',
       experience: '18+ Years',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616c240a56a?w=300&h=300&fit=crop&crop=face',
+      image: 'reyna.jpg',
       specialties: ['Operations Management', 'Quality Control', 'Client Relations']
     },
     {
       name: 'Muhammad Irfan',
       role: 'Chief Architect',
       experience: '20+ Years',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: 'irfan.jpg',
       specialties: ['Architectural Design', 'Sustainable Building', 'Innovation']
     },
     {
       name: 'Shafiq-Ur-Rehman',
       role: 'Project Site Engineer',
       experience: '12+ Years',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
+      image: 'chand.jpg',
       specialties: ['Residential Projects', 'Budget Management', 'Client Communication']
     }
   ];
@@ -105,17 +105,10 @@ const About = () => {
                 Our Story & Mission
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 1999 by John Smith, VRR Construction began as a small family 
-                business with a simple mission: to deliver exceptional construction services 
-                while building lasting relationships with our clients. What started as a 
-                two-person operation has grown into one of the region's most trusted 
-                construction companies.
+                From zero to hero, VRR Construction is the story of Founder Mr. Abdul Rehman, who began as an ordinary technician, built the child company RR Construction, and grew it into today’s flagship—VRR Construction. Established in 2015, we’ve delivered countless projects with the same grit and craftsmanship that sparked our journey.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Our mission is to transform your construction dreams into reality through 
-                innovative design, superior craftsmanship, and unparalleled customer service. 
-                We believe that every project, regardless of size, deserves our full attention 
-                and commitment to excellence.
+                Our services span Residential Construction with Smart Home integration and Complete Electrical Solutions, specializing in: AC & VRV systems; Electrical solutions with Fire Integration and staircase pressurization; and Interior Designing. What started small now stands as a trusted, full-service partner committed to quality, safety, and on-time delivery.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="text-center p-4 bg-primary/10 rounded-lg">

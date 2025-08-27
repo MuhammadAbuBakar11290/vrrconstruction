@@ -40,7 +40,7 @@ const About = () => {
       name: 'Abdul Rahman',
       role: 'Founder & CEO',
       experience: '25+ Years',
-      image: 'Rehman.jpg',
+      image: '/images/Rehman.jpg',
       specialties: ['Project Management', 'Commercial Construction', 'Team Leadership']
     },
     {
